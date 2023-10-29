@@ -265,6 +265,11 @@ nav .fa-bars{
     text-decoration: underline;
     color: blue;
 }
+#horo{
+    height: 5px;
+    background: #8a8a8a;
+    /* margin: 100px; */
+}
 
 /************Media Queries for small screen********/
 @media only screen and (max-width :700px){
@@ -317,7 +322,15 @@ nav .fa-bars{
     .col-1{
         flex: 100%;
     }
+    .col-m{
+        margin-top: 20px;
+        flex: 1;
+    }
     .col-2{
+        flex: 1;
+    }
+    .col-3{
+        margin-top: 20px;
         flex: 1;
     }
     .col-4{
@@ -553,9 +566,9 @@ nav .fa-bars{
 /******Form******/
 .form{
     background-color: #f7f7f7;
+    padding: 30px;
     max-width: 500px;
     text-align: center;
-    padding: 30px 30px;
     border-radius: 20px;
 }
 .form input{
@@ -627,7 +640,7 @@ nav .fa-bars{
     .form{
         margin-top: 60px;
         text-align: left;
-        padding: 0 5px;
+        padding: 40px;
     }
     .form input{
         width: 100%;
